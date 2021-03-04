@@ -1,0 +1,38 @@
+
+* {
+    width: 1000px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container {
+    background-color: lightblue;
+    margin:  auto 0px;
+}
+
+.function {
+    border-top: 5px solid rgb(252, 200, 105); 
+    min-height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+button {
+    max-width: 150px;
+    height: auto;
+    margin-left: 10px;
+}
+
+#slide_down div {
+    background-color: orangered;
+    width: 50px;
+    height: 100px;
+}
+
+#emphasis {
+    background-color: gold;
+}
